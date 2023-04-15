@@ -398,7 +398,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 /* Section 5 */
-.Customers {
+.customers {
   padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
