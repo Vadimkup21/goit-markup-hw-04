@@ -233,6 +233,14 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.app-link {
+  display: block;
+}
+.app-link:hover,
+.app-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 /* Team */
 .title-header {
   font-weight: 700;
@@ -487,6 +495,45 @@ img {
   text-decoration: none;
   width: 264px;
 }
+.main-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.networks {
+}
+.networks-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+.networks-socials {
+  display: flex;
+  gap: 16px;
+}
+.networks-item {
+  width: 40px;
+  height: 40px;
+}
+.networks-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.networks-link:hover,
+.networks-link:focus {
+  background-color: #31d0aa;
+}
+.networks-icon {
+  fill: var(--color-cloud);
+}
 
 /* DZ4 */
 
@@ -504,5 +551,3 @@ img {
   background-position: center;
   background-size: cover;
 }
-
-/* Customers */
