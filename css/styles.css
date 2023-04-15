@@ -500,9 +500,11 @@ img {
   align-items: baseline;
   margin-right: 120px;
 }
-.networks {
+.footer-container {
+  align-items: baseline;
+  margin-right: 120px;
 }
-.networks-title {
+.footer-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -510,7 +512,7 @@ img {
   color: var(--color-white);
   margin-bottom: 16px;
 }
-.networks-socials {
+.networks-list {
   display: flex;
   gap: 16px;
 }
@@ -531,10 +533,14 @@ img {
 .networks-link:focus {
   background-color: #31d0aa;
 }
-.networks-icon {
+.networks-icons {
   fill: var(--color-cloud);
 }
 
+.footer-networks {
+  display: flex;
+  margin-left: 156px;
+}
 /* DZ4 */
 
 .first-section {
