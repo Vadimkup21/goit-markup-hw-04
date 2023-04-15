@@ -231,7 +231,7 @@ img {
   background-color: var(--color-ocean);
   border: 1px solid transparent;
 }
-
+/* Team */
 .title-header {
   font-weight: 700;
   font-size: 36px;
@@ -253,6 +253,48 @@ img {
   color: var(--color-navy-blue);
   margin-bottom: 72px;
 }
+.team {
+  background-color: var(--color-cloud);
+  color: var(--color-grey);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-info {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.list-team {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+/* Socials icons */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* .socials-item { поки не використовуєм
+} */
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--color-ocean);
+}
+
+.socials-icon {
+}
+
+/* main section */
 .main-section {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -314,6 +356,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin-bottom: 8px;
 }
 .portfolio-info {
   font-size: 16px;
@@ -333,17 +376,6 @@ img {
   width: calc((100%-48px) / 3);
 }
 /* section 4 */
-.list-team {
-  display: flex;
-  gap: 24px;
-  text-align: center;
-}
-.team {
-  background-color: var(--color-cloud);
-  color: var(--color-grey);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .section-img {
   background-color: #ffffff;
@@ -352,15 +384,13 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-.team-info {
-  padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
-}
+
 /* footer */
 .footer {
   background-color: var(--color-navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 .footer-logo {
   margin-right: 76px;
@@ -419,3 +449,5 @@ img {
   background-position: center;
   background-size: cover;
 }
+
+/* Customers */
