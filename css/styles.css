@@ -260,7 +260,7 @@ img {
   padding-bottom: 120px;
 }
 .team-info {
-  padding: 32px 16px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 .list-team {
@@ -292,6 +292,7 @@ img {
 }
 
 .socials-icon {
+  fill: var(--color-cloud);
 }
 
 /* main section */
@@ -363,6 +364,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.advantages-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 /* section 3 */
 .section-three {
