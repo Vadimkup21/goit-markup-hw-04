@@ -399,12 +399,17 @@ img {
 .Customers {
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .customers-title {
   font-size: 36px;
   line-height: 1.1;
   color: var(--color-grey);
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .customers-list {
   display: flex;
